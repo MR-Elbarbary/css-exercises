@@ -15,8 +15,25 @@ body {
   justify-content: center;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  display: flex;
+}
+
+.header{
+  margin-right: auto;
+}
+
 .modal {
   background: white;
+  display: flex;
+  flex: 0, 0 , auto;
+  gap: 16px;
+  padding: 8px;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
@@ -31,6 +48,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
